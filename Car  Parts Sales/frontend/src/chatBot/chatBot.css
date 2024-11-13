@@ -1,0 +1,102 @@
+.chat-window {
+    position: fixed;
+    bottom: 90px;
+    right: 90px;
+    width: 320px;
+    height: 420px;
+    border: 1px solid #f49846;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9); /* Translucent background color */
+    backdrop-filter: blur(5px); /* Add blur effect to the background */
+  }
+  
+  .chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  .chat-icon {
+    position: absolute;
+    bottom: 6px;
+    right: 5px;
+    z-index: 9995;
+    height: 60px;
+    width: 60px;
+    /* background-color: #af6005;
+    color: #8e4646; */
+    border-radius: 34px 8px 34px 34px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .chat-header {
+    padding: 10px;
+    background-color: #f45f09;
+    font-weight: bold;
+  }
+  
+  .chat-body {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  .chat-input {
+    padding: 17px;
+    background-color: #ffffff;
+  }
+  
+  .chat-input form {
+    display: flex;
+  }
+  
+  .chat-input input {
+    flex-grow: 1;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 6px;
+  }
+  
+  .chat-input button {
+    margin-left: 10px;
+  }
+  
+  .message-bubble {
+    background-color: #f1f0f0;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin: 6px;
+  }
+  
+  .d-hotline.h-btn {
+    align-items: center;
+    border-radius: 34px 8px 34px 34px;
+    bottom: 6px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.26);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 5px;
+    z-index: 9995;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .animated.faster {
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+  }
+  
+  .d-hotline {
+    background-color: #f46527 !important;
+    color: #ffffff !important;
+    border-color: transparent #ce1f1f transparent transparent;
+  }
+  
